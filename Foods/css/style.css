@@ -1,0 +1,111 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dancing-Script';
+    background: url(../images/imgbg2.jpg) no-repeat center center / cover;
+    /* height: 100vh; vh - viewport height */
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* header start */
+
+.nav {
+    padding: 20px 0;
+}
+
+.header__title {
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    text-shadow: 2px 2px 10px #000;
+    font-weight: 900;
+    font-size: 32px;
+}
+/* header end */
+
+/* main start */
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #0000006b;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.card {
+    width: 23%;
+}
+
+.card__img {
+    width: 150px;
+    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px 1px rgba(255, 255, 255, 0.733);
+}
+
+.card__title {
+    margin: 15px 0;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.card__btn {
+    width: 200px;
+    padding: 10px;
+    background: linear-gradient(to right , #000 , rgba(255, 255, 255, 0.4));
+    margin: 15px auto 0;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.card__link {
+    color: #fff;
+    font-style: italic;
+}
+
+.card__btn:hover {
+    box-shadow: 0 0 10px 2px #fff;
+}
+/* main end */
+
+/* footer start */
+
+.footer {
+    padding: 20px 0;
+}
+
+.footer__text {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 900;
+    text-shadow: 2px 2px 10px #000;
+}
+/* footer end */
